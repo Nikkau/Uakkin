@@ -17,7 +17,7 @@ Je voulais une syntaxe très simple, donc les "routes" se configurent sous forme
 
 Le "dispatch" est automatique, dès qu'on arrête de mettre des routes, le résultat est généré immédiatement.
 
-Il faut bien sûr redirigé toutes les requêtes sur notre script.
+Il faut bien sûr rediriger toutes les requêtes sur notre script.
 
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-f
